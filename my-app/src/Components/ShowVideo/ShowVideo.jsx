@@ -10,7 +10,8 @@ function ShowVideo({ vid }) {
       <Link to={`/VideoPage/${vid?._id}`}>
         
           <video
-            src={`http://localhost:5500/${vid.filePath}`}
+            //src={`http://localhost:5500/${vid.filePath}`}
+            src={`https://dinesd.onrender.com/${vid.filePath}`}
             className='video_ShowVideo'
           />
       </Link>
